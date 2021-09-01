@@ -3,6 +3,7 @@
 
 int main()
 {
+    /*A small game to input right words and print them as a output.*/
     char color[20];
     char pluralNoun[20];
     char celebrity[20];
@@ -16,7 +17,7 @@ int main()
 
     printf("Roses are %s\n", color);
     printf("%s are blue\n", pluralNoun);
-    printf("I live %s\n", celebrity);
+    printf("I love %s\n", celebrity);
 
     return 0;
 }
