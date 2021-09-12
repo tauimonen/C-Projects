@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-long double PII = 3.142857;
+const long double PII = 3.1415926535897932385L;
 
 double ympyranAla(double sade){
     return PII * pow(sade, 2);
