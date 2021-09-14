@@ -3,6 +3,7 @@
 #include <string.h>
 
 void caesarKoodaa(char mj[], char aakkosto[], char korvaavat[]) {
+    /* Simple encryption  */
     int n, i, j;
     int n_aak;
     char word[50];
