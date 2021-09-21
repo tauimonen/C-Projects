@@ -18,11 +18,15 @@ int main(int argc, char *argv[]) {
             } else {
                 sum += pow(2, index);
             }
-            printf("i: %d, index: %d, sum: %d\n", i, index, sum);
         } 
     }
     printf("%d\n", sum);
     
     return 0;
 }
+
+
+
+
+
 
