@@ -1,6 +1,14 @@
-#include <stdoio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+enum kuukaudet {TAMMIKUU, HELMIKUU, MAALISKUU, HUHTIKUU, TOUKOKUU, KESÄKUU, HEINÄKUU, ELOKUU, SYYSKUU, LOKAKUU, MARRASKUU, JOULUKUU};
+enum KK_LKM = 12;
 
 int main() {
-    unsigned char c[3] = {195, 164, '\0'};
-    printf("<html>mik%s</html>\n", x);
+    
+    
+    printf("%d", KK_LKM);
+
+    return 0;
 }
