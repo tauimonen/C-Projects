@@ -1,14 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+/*
+Program to demonstrate C pointers.
+*/
 
-enum kuukaudet {TAMMIKUU, HELMIKUU, MAALISKUU, HUHTIKUU, TOUKOKUU, KESÄKUU, HEINÄKUU, ELOKUU, SYYSKUU, LOKAKUU, MARRASKUU, JOULUKUU};
-enum KK_LKM = 12;
+#include <stdio.h>
 
 int main() {
-    
-    
-    printf("%d", KK_LKM);
+    int a;
+    int *p;
+    a = 10;
+    // p = &a; // &a = address of a
 
-    return 0;
+    printf("%d\n", a);
+    *p = 12; // dereferencing
+    printf("a = %d\n", a);
+
+    printf("%d\n", p);
+    printf("%d\n", *p); // *p = value at address pointed by b
+    printf("%d\n", &a);
 }
